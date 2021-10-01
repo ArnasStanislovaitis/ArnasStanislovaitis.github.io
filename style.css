@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 200vh;    
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;        
+}
+
+.meniu{
+    display: flex;
+    margin: 30px;
+    padding-bottom: 30px;    
+    border-bottom: solid 1px grey;
+    
+}
+.pirmaDalis{
+    flex: 2;
+}
+
+.antraDalis{
+    flex: 1;
+    display: flex;
+}
+.nuoroda{
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.nuoroda:hover{
+    color: cyan;    
+    transition: 0.2s;
+}
+.logo{
+    margin-left: 40px;
+}
+.vidurys{
+    margin-top: 240px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.mygtukai{
+    font-size: 40px;
+}
+
+.kontaktai{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 17%;     
+}
+
+.welcome{
+    font-size: 90px;
+    margin: 20px;
+    font-weight: 800;
+    
+}
+.projektoMygtukas{
+    padding: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    color: whitesmoke;
+    border: solid 1px rgb(190, 190, 190); 
+}
+.projektoMygtukas:hover{
+ color:rgb(250, 69, 37);
+ cursor: pointer;
+ transition: 0.2s;
+}
+
+
+.kontaktuMygtukas{
+    padding: 12px;
+    background-color: rgb(250, 69, 37);
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 2%;
+}
+.kontaktuMygtukas:hover{
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.paveiksliukai{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;    
+}
+
+.logo{
+    width: 50px;
+}

@@ -1,0 +1,61 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: peachpuff;
+}
+
+#langas{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url("world.jpg");
+    background-size: contain;
+    overflow: hidden;
+}
+#kliutis{
+    width: 48px;
+    height: 500px;
+    background-image: url("blockbg.jpg");
+    background-size:contain;
+    position: relative;
+    left: 500px;
+    animation: animacija 3s infinite linear;  
+}
+#tarpas{
+    background-image: url("holebg.jpg");
+    width: 50px;
+    height: 195px;
+    background-size: contain;
+    position:relative;
+    left: 500px;
+    top: -500px;
+    animation:animacija 3s infinite linear;
+    background-image: no-repeat;
+}
+
+
+
+@keyframes animacija{
+    0%{left: 500px}
+    100%{left:-50px}
+}
+
+#veikejas{
+    width: 32px;
+    height: 25px;
+    background-color:transparent;
+    background-image: url("https://flappycreator.com/default/bird_sing.png");
+    background-size:cover;
+    position:fixed;
+    top:50px;    
+}
+
+.mygtukai{    
+    display: flex;
+    justify-content: center;
+    margin: 10px;   
+}
+
